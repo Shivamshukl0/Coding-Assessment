@@ -1,0 +1,74 @@
+body{
+    background-image: url("./Media/backhround.jpg");
+}
+h1{
+    position: relative;
+        right: 850px;
+}
+a{
+    text-decoration: none;
+        text-align: center;
+}
+.header{
+    width: 1330px;
+        background-color: black;
+        color: white;
+        height: 50px;
+        display: flex;
+        flex-flow: wrap-reverse;
+        justify-content: flex-end;
+        /* padding: 5px; */
+        align-content: center;
+        position: relative;
+}
+.link{
+    border: 1px solid black;
+        width: 70px;
+        height: 30px;
+        margin: 2px;
+        border-radius: 10px;
+        background-color: white;
+        text-decoration: none;
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+        
+}
+.parent{
+    width: 1330px;
+        height: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: inherit;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+}
+.child{
+        border: 2px solid black;
+        border-radius: 20px;
+        width: 300px;
+        height: 251px;
+        margin: 1rem;
+        padding: 5px;
+        text-align: center;
+        background-image: linear-gradient(to bottom, pink, blue, yellow);
+}
+.footer{
+    width: 1330px;
+        height: 65px;
+        background-color: bisque;
+        position: absolute;
+}
+.data{
+    font-size: 35px;
+        text-align: center;
+        color: black;
+        position: relative;
+        bottom: 20px;
+}
+h2{
+    position: absolute;
+        bottom: 450px;
+        right: 500px;
+}
